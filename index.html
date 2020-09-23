@@ -26,6 +26,8 @@
 
         <!-- Flaticon CSS -->
         <link href="assets/css/flaticon.css" rel="stylesheet">
+        <link href="assets/css/f0d3be57a9b7.css" rel="stylesheet">
+        <link href="assets/css/1e7eecabe036.css" rel="stylesheet">
 
         <!-- Main StyleSheet -->
         <link href="assets/css/style.css" rel="stylesheet">
@@ -91,13 +93,13 @@
 
 
                                 <div class="hero-area-btn">
-                                    <a href="#download" class="default-btn">在线咨询</a>
+                                    <a class="shangqiao default-btn">在线咨询</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 text-right">
                             <div class="hero-mobile">
-                                <img src="assets/img/feature-mobile.png" alt="">
+                                <img src="assets/img/feature-mobile-index.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -196,7 +198,7 @@
                 <div class="row">
                     <div class="col-md-4 offset-md-4 text-center">
                         <div class="feature-btn">
-                            <a href="#download" class="default-btn">在线咨询</a>
+                            <a class="shangqiao default-btn">在线咨询</a>
                         </div>
                     </div>
                 </div>
@@ -334,7 +336,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="single-price-box">
                             <div class="single-price-heading">
                                 <h4>营销短信</h4>
@@ -352,11 +354,11 @@
                                 </ul>
                             </div>
                             <div class="pricing-btn">
-                                <a href="" class="default-btn">在线咨询</a>
+                                <a class="shangqiao default-btn">在线咨询</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="single-price-box active">
                             <div class="single-price-heading">
                                 <h4>行业短信</h4>
@@ -374,16 +376,16 @@
                                 </ul>
                             </div>
                             <div class="pricing-btn">
-                                <a href="" class="default-btn">在线咨询</a>
+                                <a class="shangqiao default-btn">在线咨询</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="single-price-box">
                             <div class="single-price-heading">
                                 <h4>国际短信</h4>
                                 <div class="single-price-icon">
-                                    <i class="flaticon-air-freight"></i>
+                                    <i class="flaticon-startup"></i>
                                 </div>
                             </div>
                             <div class="price-menu">
@@ -391,10 +393,35 @@
                                     <li><i class="flaticon-play"></i>高送达</li>
                                     <li><i class="flaticon-play"></i>全球全网覆盖</li>
                                     <li><i class="flaticon-play"></i>解决异国短信盲区</li>
+                                    <li><i class="flaticon-play"></i>秒级速度</li>
+                                    <li><i class="flaticon-play"></i>稳定高效</li>
                                 </ul>
                             </div>
                             <div class="pricing-btn">
-                                <a href="" class="default-btn">在线咨询</a>
+                                <a class="shangqiao default-btn">在线咨询</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="single-price-box">
+                            <div class="single-price-heading">
+                                <h4>语音验证码</h4>
+                                <div class="single-price-icon">
+                                    <i class="flaticon-paper-plane"></i>
+                                </div>
+                            </div>
+                            <div class="price-menu">
+                                <ul>
+                                    <li><i class="flaticon-play"></i>音质高晰</li>
+                                    <li><i class="flaticon-play"></i>短信之外另辟蹊径</li>
+                                    <li><i class="flaticon-play"></i>更安全更保密</li>
+                                    <li><i class="flaticon-play"></i>及时回复，候时短</li>
+                                    <li><i class="flaticon-play"></i>高到达率</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-btn">
+                                <a  class="shangqiao default-btn">在线咨询</a>
                             </div>
                         </div>
                     </div>
@@ -409,25 +436,25 @@
                 <div class="row text-center">
                     <div class="col-md-3">
                         <div class="single-counting-number">
-                            <h1 class="counter">352</h1>
+                            <h1 class="counter" id="new_ke"></h1>
                             <h4>今日新增客户</h4>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="single-counting-number">
-                            <h1 class="counter">575</h1>
+                            <h1 class="counter" id="new_send"></h1>
                             <h4>今日发送量</h4>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="single-counting-number">
-                            <h1 class="counter">926</h1>
+                            <h1 class="counter" id="new_suc">926</h1>
                             <h4>今日成交量</h4>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="single-counting-number border-none">
-                            <h1 class="counter">450</h1>
+                            <h1 class="counter" id="new_sur"></h1>
                             <h4>今日免费测试剩余</h4>
                         </div>
                     </div>
@@ -466,7 +493,7 @@
                                 <h5>王小姐 <span>客服小姐姐</span></h5>
                             </div>
                             <div class="single-testimonial-carousel">
-                                <p>省！省！省！套餐实惠，价格公道，专票齐全，省钱省心省废话！</p>
+                                <p>省！省！省！套餐实惠，价格公道，专票齐全，省钱省心省时间！</p>
                                 <img src="assets/img/testimonial-author-4.png" alt="">
                                 <h5>康女士 <span>财务主管</span></h5>
                             </div>
@@ -491,7 +518,7 @@
                         <div class="contact-form-wrap">
                             <form action="index.html">
 
-                                <input type="submit" value="在线咨询">
+                                <input class="shangqiao" type="submit" value="在线咨询">
                             </form>
                         </div>
                     </div>
@@ -500,14 +527,86 @@
         </section>
         <!-- Contact Area End -->
 
+        <div id="feedback" class="feedback-wrap hidden-lg hidden-md clearfix">
+            <div class="feedback-service">
+                <div>在线咨询</div>
+            </div>
+            <div class="feedback-box">
+                <p>
+                    客服咨询：
+                    <a target="_blank" title="" href="tel:055166185698" style="color: white; font-size:11px;">&nbsp;&nbsp;0551-66185698</a>
+                    <br> <span style="font-size: 9px;display: block;color: #ddd;">工作日 08:30-18:00 有效</span>
+                </p>
+                <!-- <p>在线留言：<a target="_blank" class="kefuqq" href="javascript:(function(){if(!$('#kchatModal iframe').attr('src')){$('#kchatModal iframe').attr('src','http://support.epub360.com/kchat/3179?from=epub360.com&amp;group=3832')};$('#kchatModal').modal(); return false;})();">&nbsp;&nbsp;点击留言</a></p> -->
+                <p>
+                    QQ咨询：
+                    <a>&nbsp;&nbsp;2563598925</a>
+                </p>
+                <hr>
+                <p>关注微信公众号：</p>
+                <form action="">
+                    <img src="./assets/img/er_code_img.jpg" class="qrcode">
+                </form>
+            </div>
+        </div>
+
+        <div class="m-confirm hidden-xs hidden-sm">
+            <div class="tel box">
+                <img class="icon" src="./assets/img/phone_icon.png" style="width: 30px;
+    margin-top: 18px;">
+                <p>客服咨询</p>
+                <div class="content">
+                    <p>工作日 ：08:30-18:00</p>
+                    <p>请拨电话：0551-66185698</p>
+                </div>
+            </div>
+            <!--<div class="online box" onclick="javascript:(function(){openFeedback(); return false;})();">
+        <i class="i-sprite glyphicon glyphicon-envelope"></i>
+        <p>留言咨询</p>
+        <div class="content">
+          <p><a target="_blank" href="javascript:(function(){openFeedback(); return false;})();"><i class="glyphicon glyphicon-envelope"></i>&nbsp;&nbsp;点击留言</a></p>
+        </div>
+      </div>-->
+            <div class="qq box"
+                 onclick="javascript:(function(){window.open('//shang.qq.com/wpa/qunwpa?idkey=3b8caf2460a86137ea3b5fa4d2acc0327132e326107a4dbb78dd43f0eab37656');})();">
+                <img class="icon" src="./assets/img/qq.png">
+                <p>QQ咨询</p>
+                <div class="content">
+                    <p>
+                        <a>QQ咨询：2563598925</a>
+                    </p>
+                </div>
+            </div>
+            <div class="weixin box">
+                <img class="icon" src="./assets/img/er_code_img.jpg">
+                <p>关注微信</p>
+                <div class="content">
+                    <p>
+                        <img src="./assets/img/er_code_img.jpg" class="qrcode" style="width:185px;">
+                    </p>
+                </div>
+            </div>
+            <div class="top" style="display: none;">
+                <i class="i-sprite i-sprite-4"></i>
+                <p>TOP</p>
+            </div>
+        </div>
+
         <!-- Footer Area Start -->
         <footer class="footer-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="logo" style="background:url(./assets/img/er_code_img.jpg) no-repeat center;width: 150px;height: 150px;margin: 0 auto;">
-
-                        </div>
+                    <div class="col-md-6">
+                        <p class="account-title">▍支付宝对公</p>
+                        <p class="account-item">账号:sifancloud@163.com</p>
+                        <p class="account-item">类型:支付宝</p>
+                        <p class="account-item">名称:合肥思凡文化传播有限公司</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="account-title">▍对公账户</p>
+                        <p class="account-item">开户账号:34050148680800000120 </p>
+                        <p class="account-item">开 户 行:中国建设银行合肥明珠广场支行</p>
+                        <p class="account-item">开 户 名:合肥思凡文化传播有限公司</p>
                     </div>
                 </div>
             </div>
@@ -518,17 +617,23 @@
         <div class="copyright-area" style="padding:15px 0">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center">
+                    <a class="col-md-12 text-center footer-text" target="_blank" href="./assets/img/dxzz_cert.jpg">
+                        增值电信业务经营许可证编号：B2-20182629
+                    </a>
+                    <a class="col-md-12 text-center footer-text" target="_blank" href="./assets/img/mhzy_cert.jpg">
+                        电信网码号资源使用证书编号：号[2018]01264-A01
+                    </a>
+                    <div class="col-md-12 text-center footer-text">
                         公司地址：中国•合肥市蜀山区潜山路新华优阁2号楼2611
                     </div>
-                    <div class="col-md-12 text-center">
-                        &copy; Appli 2020 Designed by 思凡云科技 皖ICP备17025529号-2
+                    <div class="col-md-12 text-center footer-text">
+                        &copy; Appli 2020 Designed by 思凡云 皖ICP备17025529号-2
                     </div>
                 </div>
             </div>
         </div>
         <!-- CopyRight Area End -->
-                
+
 
 
         <!-- jQuery v1.12.4 JS -->
@@ -551,9 +656,63 @@
 
         <!-- Counter JS-->
         <script src="assets/js/jquery.counterup.min.js"></script>
+        <script src="assets/js/fakeloader.min.js"></script>
 
         <!-- Main Script JS-->
         <script src="assets/js/main.js"></script>
+        <script>
+            var today = new Date();
+            var d = today.getDate();
+            var ke_mun = d % 5;
+            console.log(ke_mun);
 
+            var h = today.getHours();
+            var new_ke = ke_mun * h;
+            $("#new_ke").text(new_ke);
+            console.log(Math.ceil(new_ke));
+
+            console.log(h);
+            var m=today.getMinutes()
+            console.log(m);
+            var t = h*60 + m;
+            var new_send = t*11*ke_mun;
+            $("#new_send").text(Math.ceil(new_send));
+            console.log(t);
+            var new_suc = t / 5 *ke_mun *100;
+            $("#new_suc").text(Math.ceil(new_suc));
+
+            var new_sur = 3000 - t/ke_mun;
+            new_sur = new_sur > 0 ?new_sur:0;
+                $("#new_sur").text(Math.ceil(new_sur));
+
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".fakeloader").fakeLoader({
+                    timeToHide : 800,
+                    bgColor : "#434343",
+                    spinner : "spinner1",
+                    zIndex : 1100,
+                });
+                $('div#feedback div.feedback-service').on('click', function() {
+                    $(this).parents('.feedback-wrap').first().toggleClass('open');
+                })
+                $(".shangqiao").click(function(){
+                    $(".nb-icon-wrap").click();
+                })
+            });
+            // (function() {
+            //     $('body').css('touch-action', 'initial');
+            // })(window)
+        </script>
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?cdf05d5c1dad932a47e71dea5fe07be8";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
     </body>
     </html>
