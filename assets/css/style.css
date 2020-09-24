@@ -719,7 +719,7 @@ a{
 
 .single-price-box:hover .pricing-btn a.default-btn {
     background: #fff;
-    color: #2d8eff;
+    color: #2d8eff !important;
 }
 
 .single-price-box.active {
@@ -747,7 +747,7 @@ a{
     color: #2D8EFF;
 }
 
-.single-price-box.active .pricing-btn a.default-btn {background: #fff;color: #2D8EFF;}
+.single-price-box.active .pricing-btn a.default-btn {background: #fff;color: #2D8EFF !important;}
 
 .active .single-price-heading:after {
     content: "OFFER";
