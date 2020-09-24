@@ -513,7 +513,12 @@ a.default-btn:hover {
 .business-area {
     padding: 100px 0;
 }
-
+a{
+    cursor:pointer;
+}
+.shangqiao{
+    color:#fff !important;
+}
 .business-heading h2 {
     font-size: 35px;
     color: #1c1f28;
