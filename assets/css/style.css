@@ -721,7 +721,9 @@ a{
     background: #fff;
     color: #2d8eff !important;
 }
-
+#newBridge .nb-icon-wrap{
+    display:none !important;
+}
 .single-price-box.active {
     background: #2D8EFF;
     color: #fff;
