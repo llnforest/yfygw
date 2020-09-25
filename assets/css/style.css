@@ -891,7 +891,9 @@ a{
 
 .testimonial-carousel .owl-dots {
     position: absolute;
-    left: 47%;
+    left: 0;
+    right: 0;
+    text-align:center;
 }
 
 /* ================================
