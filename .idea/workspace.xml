@@ -96,12 +96,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/PhpProject/yfygw&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PhpProject/yfygw/assets/img&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PhpProject\yfygw\assets\img" />
       <recent name="E:\web\yfygw\assets\img" />
       <recent name="E:\web\yfygw\assets\js" />
       <recent name="E:\web\yfygw\assets\css" />
@@ -131,7 +133,8 @@
       <workItem from="1627978573407" duration="67000" />
       <workItem from="1649342727309" duration="1587000" />
       <workItem from="1685323249632" duration="4102000" />
-      <workItem from="1695725341527" duration="59000" />
+      <workItem from="1695725341527" duration="1229000" />
+      <workItem from="1706766774497" duration="474000" />
     </task>
     <servers />
   </component>
