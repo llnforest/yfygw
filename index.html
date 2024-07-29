@@ -91,7 +91,7 @@
                                 <p>•whatsapp群发•号码检测•邮件推送等更全面的全球云通讯服务平台～</p>
 
 
-                                <div class="hero-area-btn">
+                                <div class="hero-area-btn" style="display: none;">
                                     <a class="shangqiao default-btn">在线咨询</a>
                                 </div>
                             </div>
@@ -194,7 +194,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" style="display: none;">
                     <div class="col-md-4 offset-md-4 text-center">
                         <div class="feature-btn">
                             <a class="shangqiao default-btn">在线咨询</a>
@@ -352,7 +352,7 @@
                                     <li><i class="flaticon-play"></i>使企业与客户零距离</li>
                                 </ul>
                             </div>
-                            <div class="pricing-btn">
+                            <div class="pricing-btn" style="display:none;">
                                 <a class="shangqiao default-btn">在线咨询</a>
                             </div>
                         </div>
@@ -374,7 +374,7 @@
                                     <li><i class="flaticon-play"></i>支撑大容量高并发</li>
                                 </ul>
                             </div>
-                            <div class="pricing-btn">
+                            <div class="pricing-btn" style="display: none;">
                                 <a class="shangqiao default-btn">在线咨询</a>
                             </div>
                         </div>
@@ -397,7 +397,7 @@
                                     <li><i class="flaticon-play"></i>稳定高效</li>
                                 </ul>
                             </div>
-                            <div class="pricing-btn">
+                            <div class="pricing-btn" style="display: none;">
                                 <a class="shangqiao default-btn">在线咨询</a>
                             </div>
                         </div>
@@ -420,7 +420,7 @@
                                     <li><i class="flaticon-play"></i>高到达率</li>
                                 </ul>
                             </div>
-                            <div class="pricing-btn">
+                            <div class="pricing-btn" style="display:none;">
                                 <a  class="shangqiao default-btn">在线咨询</a>
                             </div>
                         </div>
@@ -529,7 +529,7 @@
                 <div class="row">
                     <div class="col-md-8 offset-md-2 text-center">
 
-                        <div class="contact-form-wrap">
+                        <div class="contact-form-wrap" style="display: none;">
                             <div class="hero-area-btn">
                                 <a class="shangqiao default-btn">在线咨询</a>
                             </div>
@@ -541,7 +541,7 @@
         <!-- Contact Area End -->
 
         <div id="feedback" class="feedback-wrap hidden-lg hidden-md clearfix">
-            <div class="feedback-service">
+            <div class="feedback-service" style="display: none;">
                 <div>在线咨询</div>
             </div>
             <div class="feedback-box">
@@ -570,7 +570,6 @@
                 <p>客服咨询</p>
                 <div class="content">
                     <p>工作日 ：08:30-18:00</p>
-                    <p>公司固话：0551-66185698</p>
                     <p>24h热线：17895518212</p>
                 </div>
             </div>
@@ -680,59 +679,59 @@
 
         <!-- Main Script JS-->
         <script src="assets/js/main.js"></script>
-        <script>
-            var today = new Date();
-            var d = today.getDate();
-            var ke_mun = d % 5 + 1;
-            console.log(ke_mun);
+<!--        <script>-->
+<!--            var today = new Date();-->
+<!--            var d = today.getDate();-->
+<!--            var ke_mun = d % 5 + 1;-->
+<!--            console.log(ke_mun);-->
 
-            var h = today.getHours();
-            var new_ke = ke_mun * h;
-            $("#new_ke").text(new_ke);
-            console.log(Math.ceil(new_ke));
+<!--            var h = today.getHours();-->
+<!--            var new_ke = ke_mun * h;-->
+<!--            $("#new_ke").text(new_ke);-->
+<!--            console.log(Math.ceil(new_ke));-->
 
-            console.log(h);
-            var m=today.getMinutes()
-            console.log(m);
-            var t = h*60 + m;
-            var new_send = t*11*ke_mun;
-            $("#new_send").text(Math.ceil(new_send));
-            console.log(t);
-            var new_suc = t / 5 *ke_mun *100;
-            $("#new_suc").text(Math.ceil(new_suc));
+<!--            console.log(h);-->
+<!--            var m=today.getMinutes()-->
+<!--            console.log(m);-->
+<!--            var t = h*60 + m;-->
+<!--            var new_send = t*11*ke_mun;-->
+<!--            $("#new_send").text(Math.ceil(new_send));-->
+<!--            console.log(t);-->
+<!--            var new_suc = t / 5 *ke_mun *100;-->
+<!--            $("#new_suc").text(Math.ceil(new_suc));-->
 
-            var new_sur = 3000 - t/ke_mun;
-            new_sur = new_sur > 0 ?new_sur:0;
-                $("#new_sur").text(Math.ceil(new_sur));
+<!--            var new_sur = 3000 - t/ke_mun;-->
+<!--            new_sur = new_sur > 0 ?new_sur:0;-->
+<!--                $("#new_sur").text(Math.ceil(new_sur));-->
 
-        </script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $(".fakeloader").fakeLoader({
-                    timeToHide : 800,
-                    bgColor : "#434343",
-                    spinner : "spinner1",
-                    zIndex : 1100,
-                });
-                $('div#feedback div.feedback-service').on('click', function() {
-                    $(this).parents('.feedback-wrap').first().toggleClass('open');
-                })
-                $(".shangqiao").click(function(){
-                    $(".nb-icon-wrap").click();
-                })
-            });
-            // (function() {
-            //     $('body').css('touch-action', 'initial');
-            // })(window)
-        </script>
-        <script>
-            var _hmt = _hmt || [];
-            (function() {
-                var hm = document.createElement("script");
-                hm.src = "https://hm.baidu.com/hm.js?cdf05d5c1dad932a47e71dea5fe07be8";
-                var s = document.getElementsByTagName("script")[0];
-                s.parentNode.insertBefore(hm, s);
-            })();
-        </script>
+<!--        </script>-->
+<!--        <script type="text/javascript">-->
+<!--            $(document).ready(function() {-->
+<!--                $(".fakeloader").fakeLoader({-->
+<!--                    timeToHide : 800,-->
+<!--                    bgColor : "#434343",-->
+<!--                    spinner : "spinner1",-->
+<!--                    zIndex : 1100,-->
+<!--                });-->
+<!--                $('div#feedback div.feedback-service').on('click', function() {-->
+<!--                    $(this).parents('.feedback-wrap').first().toggleClass('open');-->
+<!--                })-->
+<!--                $(".shangqiao").click(function(){-->
+<!--                    $(".nb-icon-wrap").click();-->
+<!--                })-->
+<!--            });-->
+<!--            // (function() {-->
+<!--            //     $('body').css('touch-action', 'initial');-->
+<!--            // })(window)-->
+<!--        </script>-->
+<!--        <script>-->
+<!--            var _hmt = _hmt || [];-->
+<!--            (function() {-->
+<!--                var hm = document.createElement("script");-->
+<!--                hm.src = "https://hm.baidu.com/hm.js?cdf05d5c1dad932a47e71dea5fe07be8";-->
+<!--                var s = document.getElementsByTagName("script")[0];-->
+<!--                s.parentNode.insertBefore(hm, s);-->
+<!--            })();-->
+<!--        </script>-->
     </body>
     </html>
